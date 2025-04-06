@@ -20,6 +20,8 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "duckbot-gpt": "^1.0.0",
     "pdf-parse": "^1.1.1"
   }
 }
