@@ -1,0 +1,25 @@
+{
+  "name": "lumen_resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.14.0",
+    "@types/pdf-parse": "^1.1.5",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}
