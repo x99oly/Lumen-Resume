@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "duckbot-gpt": "^1.0.0"
+    "duckbot-gpt": "^1.0.0",
+    "pino": "^9.6.0"
   }
 }
